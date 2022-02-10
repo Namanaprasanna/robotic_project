@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4d8906-7e75-4c5a-8b94-8e1181ade9a7" name="Changes" comment="day 2 start" />
+    <list default="true" id="7f4d8906-7e75-4c5a-8b94-8e1181ade9a7" name="Changes" comment="demo2 emp">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/drivers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -121,7 +123,56 @@
       <option name="project" value="LOCAL" />
       <updated>1644467205712</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="content display">
+      <created>1644511564905</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1644511564905</updated>
+    </task>
+    <task id="LOCAL-00012" summary="content display">
+      <created>1644511611844</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644511611844</updated>
+    </task>
+    <task id="LOCAL-00013" summary="demo2_suite">
+      <created>1644511827494</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644511827494</updated>
+    </task>
+    <task id="LOCAL-00014" summary="alert msg in nassccom membership">
+      <created>1644511931839</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644511931839</updated>
+    </task>
+    <task id="LOCAL-00015" summary="day 2 start">
+      <created>1644511978184</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644511978184</updated>
+    </task>
+    <task id="LOCAL-00016" summary="personal details">
+      <created>1644512125968</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1644512125968</updated>
+    </task>
+    <task id="LOCAL-00017" summary="demo2 emp">
+      <created>1644512182720</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1644512182720</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +187,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="alert msg" />
+    <MESSAGE value="demo2_suite" />
+    <MESSAGE value="alert msg in nassccom membership" />
     <MESSAGE value="day 2 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 2 start" />
+    <MESSAGE value="personal details" />
+    <MESSAGE value="demo2 emp" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo2 emp" />
   </component>
 </project>
