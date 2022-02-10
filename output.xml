@@ -1,78 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20220209 09:18:03.102" schemaversion="2" generator="Robot 4.1.3 (Python 2.7.17 on win32)">
-<suite source="C:\Users\YogithaNandish\Desktop\robotic_project\selenium_suite\orange_hrm_suite.robot" id="s1" name="Orange Hrm Suite">
-<test id="s1-t1" name="Tc1 Valid Login">
+<robot rpa="false" generated="20220209 21:25:36.555" schemaversion="2" generator="Robot 4.1.3 (Python 2.7.17 on win32)">
+<suite source="C:\Users\YogithaNandish\Desktop\robotic_project\selenium_suite\medibuddy.robot" id="s1" name="Medibuddy">
+<test id="s1-t1" name="TC1">
 <kw name="Append To Environment Variable" library="OperatingSystem">
 <arg>path</arg>
-<arg>${EXECDIR}\\driver</arg>
+<arg>${EXECDIR}\\drivers</arg>
 <doc>Appends given ``values`` to environment variable ``name``.</doc>
-<msg timestamp="20220209 09:18:05.353" level="INFO">Environment variable 'path' set to value 'C:\Users\YogithaNandish\PycharmProjects\pythonProject\venv\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Flash Magic;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\YogithaNandish\Scripts\;C:\Users\YogithaNandish\;C:\Users\YogithaNandish\AppData\Local\Microsoft\WindowsApps;C:\Users\YogithaNandish\AppData\Roaming\npm;;C:\Users\YogithaNandish\AppData\Local\JetBrains\PyCharm 2021.3.1\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.1\New folder\PyCharm Community Edition 2021.3.1\bin;;C:\Users\YogithaNandish\Desktop\robotic_project\driver'.</msg>
-<status status="PASS" endtime="20220209 09:18:05.353" starttime="20220209 09:18:05.351"/>
+<msg timestamp="20220209 21:25:44.077" level="INFO">Environment variable 'path' set to value 'C:\Users\YogithaNandish\PycharmProjects\pythonProject\venv\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Flash Magic;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\YogithaNandish\Scripts\;C:\Users\YogithaNandish\;C:\Users\YogithaNandish\AppData\Local\Microsoft\WindowsApps;C:\Users\YogithaNandish\AppData\Roaming\npm;;C:\Users\YogithaNandish\AppData\Local\JetBrains\PyCharm 2021.3.1\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.1\New folder\PyCharm Community Edition 2021.3.1\bin;;C:\Users\YogithaNandish\Desktop\robotic_project\drivers'.</msg>
+<status status="PASS" endtime="20220209 21:25:44.077" starttime="20220209 21:25:44.062"/>
 </kw>
 <kw name="Open Browser" library="SeleniumLibrary">
-<arg>url=https://opensource-demo.orangehrmlive.com/</arg>
-<arg>browser=edge</arg>
+<arg>url=https://www.medibuddy.in/</arg>
+<arg>browser=chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220209 09:18:05.356" level="INFO">Opening browser 'edge' to base url 'https://opensource-demo.orangehrmlive.com/'.</msg>
+<msg timestamp="20220209 21:25:44.077" level="INFO">Opening browser 'chrome' to base url 'https://www.medibuddy.in/'.</msg>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20220209 09:18:48.596" level="INFO">Cannot capture screenshot because no browser is open.</msg>
-<status status="PASS" endtime="20220209 09:18:48.596" starttime="20220209 09:18:48.594"/>
+<msg timestamp="20220209 21:25:44.262" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" endtime="20220209 21:25:44.262" starttime="20220209 21:25:44.262"/>
 </kw>
-<msg timestamp="20220209 09:18:49.296" level="FAIL">WebDriverException: Message: Unknown error
+<msg timestamp="20220209 21:25:44.525" level="FAIL">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
 </msg>
-<status status="FAIL" endtime="20220209 09:18:49.297" starttime="20220209 09:18:05.355"/>
+<status status="FAIL" endtime="20220209 21:25:44.525" starttime="20220209 21:25:44.077"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" endtime="20220209 21:25:44.541" starttime="20220209 21:25:44.541"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>5s</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" endtime="20220209 21:25:44.541" starttime="20220209 21:25:44.541"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[text()='For Employer']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" endtime="20220209 21:25:44.541" starttime="20220209 21:25:44.541"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>MediBuddy LaunchPad</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" endtime="20220209 21:25:44.541" starttime="20220209 21:25:44.541"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>link=Sign up</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" endtime="20220209 21:25:44.541" starttime="20220209 21:25:44.541"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
-<arg>id=txtUsername</arg>
-<arg>Admin</arg>
+<arg>id=name</arg>
+<arg>admin</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" endtime="20220209 09:18:49.300" starttime="20220209 09:18:49.300"/>
+<status status="NOT RUN" endtime="20220209 21:25:44.556" starttime="20220209 21:25:44.556"/>
 </kw>
-<kw name="Input Password" library="SeleniumLibrary">
-<arg>id=txtPassword</arg>
-<arg>admin123</arg>
-<doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" endtime="20220209 09:18:49.302" starttime="20220209 09:18:49.302"/>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=email</arg>
+<arg>admin@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" endtime="20220209 21:25:44.556" starttime="20220209 21:25:44.556"/>
 </kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>name=Submit</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" endtime="20220209 09:18:49.304" starttime="20220209 09:18:49.303"/>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=companyName</arg>
+<arg>cs@ltts.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" endtime="20220209 21:25:44.563" starttime="20220209 21:25:44.556"/>
 </kw>
-<kw name="Get Location" library="SeleniumLibrary">
-<var>${url}</var>
-<doc>Returns the current browser window URL.</doc>
-<status status="NOT RUN" endtime="20220209 09:18:49.306" starttime="20220209 09:18:49.305"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${url}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="NOT RUN" endtime="20220209 09:18:49.309" starttime="20220209 09:18:49.307"/>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=mobileNumber</arg>
+<arg>9876543210</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" endtime="20220209 21:25:44.563" starttime="20220209 21:25:44.563"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
-<arg>id=welcome</arg>
+<arg>xpath=//input[@value='Next']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" endtime="20220209 09:18:49.311" starttime="20220209 09:18:49.311"/>
+<status status="NOT RUN" endtime="20220209 21:25:44.563" starttime="20220209 21:25:44.563"/>
 </kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>5s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" endtime="20220209 09:18:49.313" starttime="20220209 09:18:49.313"/>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="NOT RUN" endtime="20220209 21:25:44.563" starttime="20220209 21:25:44.563"/>
 </kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>link=Logout</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" endtime="20220209 09:18:49.315" starttime="20220209 09:18:49.314"/>
-</kw>
-<kw name="Close Browser" library="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="NOT RUN" endtime="20220209 09:18:49.316" starttime="20220209 09:18:49.316"/>
-</kw>
-<status status="FAIL" endtime="20220209 09:19:05.255" starttime="20220209 09:18:05.347">WebDriverException: Message: Unknown error
+<status status="FAIL" endtime="20220209 21:25:44.563" starttime="20220209 21:25:44.024">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
 </status>
 </test>
-<status status="FAIL" endtime="20220209 09:19:05.428" starttime="20220209 09:18:03.347"/>
+<status status="FAIL" endtime="20220209 21:25:44.583" starttime="20220209 21:25:36.630"/>
 </suite>
 <statistics>
 <total>
@@ -81,7 +92,7 @@
 <tag>
 </tag>
 <suite>
-<stat fail="1" skip="0" id="s1" name="Orange Hrm Suite" pass="0">Orange Hrm Suite</stat>
+<stat fail="1" skip="0" id="s1" name="Medibuddy" pass="0">Medibuddy</stat>
 </suite>
 </statistics>
 <errors>

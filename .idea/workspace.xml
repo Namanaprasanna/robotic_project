@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4d8906-7e75-4c5a-8b94-8e1181ade9a7" name="Changes" comment="day 2 start" />
+    <list default="true" id="7f4d8906-7e75-4c5a-8b94-8e1181ade9a7" name="Changes" comment="day 2 start">
+      <change afterPath="$PROJECT_DIR$/selenium_suite/db4_free.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_suite/medibuddy.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_suite/nasscom.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_suite/openEMR_suite.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_suite/orange_hrm_suite.robot" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_suite/orange_hrm_suite.robot" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +32,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="24peoCkuYjLWm0yii7wrZxpY3nF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -100,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644382918584</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day 2 start">
+      <created>1644382961756</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644382961756</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
